@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/components/menu/Card.tss"  ],
   "exclude": [
     "node_modules"
   ]

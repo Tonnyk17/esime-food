@@ -10,7 +10,7 @@ type CardProps = {
   isFavorite?: boolean;
 }
 
-export const Card: FC<CardProps> = ({name,image,price,offerPrice, isFavorite}) => {
+const Card: FC<CardProps> = ({name,image,price,offerPrice, isFavorite}) => {
   return (
     <>
       <div className="w-full h-52 rounded-md bg-gray-200 flex flex-col gap-2 justify-between items-center m-auto p-2 hover:shadow-slate-800 shadow-md">
@@ -32,3 +32,5 @@ export const Card: FC<CardProps> = ({name,image,price,offerPrice, isFavorite}) =
     </>
   )
 };
+
+export default Card

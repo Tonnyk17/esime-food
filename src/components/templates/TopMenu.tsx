@@ -6,14 +6,12 @@ import { faArrowLeft, faCartShopping } from '@fortawesome/free-solid-svg-icons'
 const TopMenu: FC = () => {
   return(
     <>
-      <div className='w-full h-11 fixed items-center top-0 left-0 flex justify-between p-4'>
-        <span>
+        <span className='fixed left-3 top-3 rounded-full bg-zinc-600 w-8 h-8 flex items-center justify-center'>
           <FontAwesomeIcon icon={faArrowLeft} size="lg"/>
         </span>
-        <span>
+        <span className='fixed right-3 top-3 rounded-full bg-zinc-600 w-8 h-8 flex items-center justify-center'>
           <FontAwesomeIcon icon={faCartShopping} size="lg"/>
         </span>
-      </div>
     </>
   )
 }

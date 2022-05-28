@@ -8,7 +8,7 @@ import TopMenu from '../components/templates/TopMenu'
 const Home: FC = () => {
   return(
     <>
-      <div className='w-full p-4'>
+      <div className='w-full max-w-screen-sm p-4'>
         <TopMenu/>
           <CardsContainer/>
         <BottomMenu/>

@@ -20,7 +20,7 @@ const Card: FC<CardProps> = ({name,image,price,offerPrice, isFavorite}) => {
           <span className="w-full text-right">
             <FontAwesomeIcon icon={faHeart} className="text-gray-500 hover:text-red-500"/>
           </span>
-          <Image src={image} alt="" width={96} height={96}/>
+          <Image src={image} alt={name} width={96} height={96}/>
           <p className="text-xs font-bold text-center">{name}</p>
           <div className="w-full flex justify-between font-semibold">
             {

@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['pngimg.com'], //TODO save images on Firebase & add the domain
+    domains: ['pngimg.com','img.pystatic.com'], //TODO save images on Firebase & add the domain
   },
 }
 

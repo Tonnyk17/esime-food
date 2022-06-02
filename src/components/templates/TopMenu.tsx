@@ -8,15 +8,17 @@ const TopMenu: FC = () => {
   const router = useRouter()
   return(
     <>
+       <div className='w-full fixed z-10 top-0 left-0 bg-gray-100 flex justify-between p-1'>
         <span 
-          className='fixed left-3 top-3 rounded-full  w-8 h-8 flex items-center justify-center' 
+          className='rounded-full w-8 h-8 flex items-center justify-center' 
           onClick={() => router.back()}
         >
           <FontAwesomeIcon icon={faArrowLeft} size="lg" />
         </span>
-        <span className='fixed right-3 top-3 rounded-full  w-8 h-8 flex items-center justify-center'>
+        <span className='rounded-full  w-8 h-8 flex items-center justify-center'>
           <FontAwesomeIcon icon={faCartShopping} size="lg"/>
         </span>
+       </div>
     </>
   )
 }
